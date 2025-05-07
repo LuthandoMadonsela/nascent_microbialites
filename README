@@ -1,1 +1,34 @@
-All scripts, mothur output files and raw data files for analyses in nascent microbialite manuscript
+A collection of raw data, Python script and R scripts used to create data and images for manuscript entitled "Recruitment and successional progression of pioneer bacteria in nascent microbialites"
+
+1. Figure 3
+Panel A - Conserved OTUs (2019)
+          Input file (Conserved_OTUS_2019)
+Panel B - NMDS plot
+          Input file (2019_data)
+Panel C - Canonical Correlation Analysis
+          Input files (Orders_spe, CCA_env, Grouping_info)
+ANOSIM  - Input file (2019_data)
+
+2. Figure 5
+Panel A - Relative abudance of All OTUs
+          Input file (All_OTUs)
+Panel B - Shannon plot
+          Inout file (NMDS_data)
+Panel C - NMDS plot
+          Inout file (NMDS_data)
+Panel D - Canonical Correlation Analysis
+          Input files (Family_spe, CCA_env_all, Grouping_info_all)
+
+3. Figure 6: Conserved OTUs (2019 - 2022)
+             Input file (Conserved_OTUs_All)
+
+4. Figure S3: Nutrient analysis
+              Input file (nutrients)
+
+5. Python script:
+The pythin script was used to convert counts to relative abundances per sample and extract the Top 10 OTUs from each sample across all samples. The script, taxonomy table,
+count table and mothur_output_prep.py file are included in the "Python_files" depository.
+
+
+
+
