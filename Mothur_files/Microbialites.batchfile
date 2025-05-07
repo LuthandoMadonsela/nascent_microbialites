@@ -1,4 +1,4 @@
-make.contigs(file=Microbilaites.files, processors=64)
+make.contigs(file=Microbialites.files, processors=64)
 summary.seqs(fasta=Microbilaites.trim.contigs.fasta, processors=64)
 screen.seqs(fasta=Microbilaites.trim.contigs.fasta, group=Microbilaites.contigs.groups, maxambig=0, maxlength=585, minlength=136)
 unique.seqs(fasta=Microbilaites.trim.contigs.good.fasta)
