@@ -26,8 +26,7 @@ Panel D - Canonical Correlation Analysis
               Input file (nutrients)
 
 5. Python script:
-The pythin script was used to convert counts to relative abundances per sample and extract the Top 10 OTUs from each sample across all samples. The script, taxonomy table,
-count table and mothur_output_prep.py file are included in the "Python_files" depository.
+The pythin script was used to convert counts to relative abundances per sample and extract the Top 10 OTUs from each sample across all samples. The script, taxonomy table, count table and mothur_output_prep.py file are included in the "Python_files" depository.
 
 
 
